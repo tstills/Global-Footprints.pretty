@@ -53,4 +53,9 @@
   (pad "MH2" thru_hole circle (at 4.32 1.106) (size 1.45 1.45) (drill 0.96) (layers "*.Cu" "*.Mask") (tstamp f8335663-b693-4ee5-83f6-7bac918f4000))
   (pad "MH3" thru_hole circle (at -4.32 -2.694) (size 1.45 1.45) (drill 0.96) (layers "*.Cu" "*.Mask") (tstamp 10a21837-e4b4-4c8c-880f-31f8cdbd51fc))
   (pad "MH4" thru_hole circle (at 4.32 -2.694) (size 1.45 1.45) (drill 0.96) (layers "*.Cu" "*.Mask") (tstamp d28edc97-5ab4-4c51-ab61-676c7e194f1f))
+  (model "/Users/tim/Documents/KiCad/Global-Footprints.pretty/USB-C Power Only.stp"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
