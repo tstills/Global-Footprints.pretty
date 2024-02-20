@@ -1,4 +1,4 @@
-(footprint "Zener Diode" (version 20221018) (generator pcbnew)
+(footprint "Schottky Diode" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "SOD-123F")
   (tags "Schottky Diode")
@@ -7,7 +7,7 @@
       (effects (font (size 1 1) (thickness 0.2) bold))
     (tstamp a4be3214-cb75-482b-8b83-c4ee8cc077b1)
   )
-  (fp_text value "Zener Diode" (at 0 0) (layer "F.SilkS") hide
+  (fp_text value "Schottky Diode" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.254)))
     (tstamp b9d64da8-a8c2-448e-863a-986671244567)
   )
