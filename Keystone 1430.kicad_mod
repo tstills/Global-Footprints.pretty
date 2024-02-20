@@ -35,4 +35,9 @@
     (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp dd9a1a72-0e4d-4015-8af4-d3e1fd6553e4))
   (pad "1" thru_hole circle (at -2.54 0.022) (size 1.83 1.83) (drill 1.22) (layers "*.Cu" "*.Mask") (tstamp c684b034-eb50-4fce-ac9c-4817fcfb71d1))
   (pad "2" thru_hole circle (at 2.54 0.022) (size 1.83 1.83) (drill 1.22) (layers "*.Cu" "*.Mask") (tstamp 5f8b6633-bf39-499d-a63d-24471f7b0b46))
+  (model "/Users/tim/Documents/KiCad/Global-Footprints.pretty/1430-1.stp"
+    (offset (xyz -2.5 0 -2.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
