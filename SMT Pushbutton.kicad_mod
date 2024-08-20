@@ -37,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -49,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,30 +63,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
-	(fp_line
-		(start -3.3 -1.075)
-		(end -3.3 -1.075)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "bfb7dda4-fa83-48e7-9939-7a8cad3e6907")
-	)
-	(fp_line
-		(start -3.2 -1.075)
-		(end -3.2 -1.075)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "f3e37118-a570-4e6b-abbc-e849655b3838")
-	)
 	(fp_line
 		(start -2.1 -0.4)
 		(end -2.1 0.4)
@@ -124,28 +107,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "4650a5de-857e-428f-829e-a61d3251da57")
-	)
-	(fp_arc
-		(start -3.3 -1.075)
-		(mid -3.25 -1.125)
-		(end -3.2 -1.075)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "c5e222f1-d58d-49bd-b97d-2db4305f5a00")
-	)
-	(fp_arc
-		(start -3.2 -1.075)
-		(mid -3.25 -1.025)
-		(end -3.3 -1.075)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "3e1c5882-f5bd-406e-b877-e6733159728d")
 	)
 	(fp_line
 		(start -3.75 -2.6)

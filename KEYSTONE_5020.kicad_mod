@@ -1,37 +1,38 @@
-(footprint "Mounted Test Point"
+(footprint "KEYSTONE_5020"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -0.645 -2.545 0)
+		(at 0.032 -2.2064 0)
 		(layer "F.SilkS")
-		(uuid "aae10e84-b231-482c-95b0-1e795d617d0f")
+		(hide yes)
+		(uuid "b1e07a03-0a37-46fd-83d0-9a08a982ef0b")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(property "Value" ""
-		(at 0 0 0)
-		(layer "F.SilkS")
-		(uuid "d3972e4a-94c8-40b0-bf0f-f2c6067068de")
-		(effects
-			(font
-				(size 1.27 1.27)
+				(size 0.64 0.64)
 				(thickness 0.15)
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Value" "KEYSTONE_5020"
+		(at 3.2832 2.2064 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab4be83e-88f3-49ff-ae50-0a3016ffde9a")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "KEYSTONE_5020"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "739c5923-14c6-4eaf-91dc-1af2821224e6")
+		(uuid "7b51004a-3c35-4d4a-9f95-75c71bcfd1ac")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +44,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "be94ca20-c99a-43c4-a036-c55fb31501a0")
+		(uuid "94ff9b56-6fdf-4a5a-b999-dfa9cd52ae40")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,7 +56,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "519534aa-8d92-414c-97d7-3547ae04c183")
+		(uuid "4d2dad64-ce42-4373-bba8-523ad7123515")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -65,54 +66,44 @@
 	(attr through_hole)
 	(fp_circle
 		(center 0 0)
-		(end 1.55 0)
+		(end 1.195 0)
 		(stroke
-			(width 0.15)
+			(width 0.127)
 			(type solid)
 		)
 		(fill none)
 		(layer "F.SilkS")
-		(uuid "a1eb842e-2ed0-4271-a02b-db5bb7c01924")
+		(uuid "5e65581a-6c15-47b2-b9ae-537da5ec82a5")
 	)
 	(fp_circle
 		(center 0 0)
-		(end 0.685 0)
+		(end 1.445 0)
 		(stroke
-			(width 1.37)
+			(width 0.05)
 			(type solid)
 		)
 		(fill none)
 		(layer "F.CrtYd")
-		(uuid "f9a95e71-b438-442c-96e2-358424d18f30")
+		(uuid "67448620-3165-484c-9379-ca8518748b1a")
 	)
 	(fp_circle
 		(center 0 0)
 		(end 1.195 0)
 		(stroke
-			(width 0.15)
+			(width 0.127)
 			(type solid)
 		)
 		(fill none)
 		(layer "F.Fab")
-		(uuid "97cad3f2-6edd-47b2-863e-fe6d9b5fc03e")
+		(uuid "4484226e-d335-4d93-8180-2ec8dfe42d35")
 	)
-	(pad "1" thru_hole rect
+	(pad "1" thru_hole circle
 		(at 0 0)
-		(size 1.57 1.57)
+		(size 1.53 1.53)
 		(drill 1.02)
-		(layers "*.Cu")
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "cb871621-9dbf-4953-800f-000c4ed1ed23")
-	)
-	(model "/Users/tim/Documents/KiCad/Global-Footprints.pretty/Mounted Test Point.stp"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
+		(solder_mask_margin 0.102)
+		(uuid "2effee2c-90a3-4b7c-bdcf-dac9899b2279")
 	)
 )
