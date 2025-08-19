@@ -37,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -49,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +63,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -226,7 +229,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "818b90c5-cb1a-4374-a10c-8362b774767e")
 	)
-	(model "${KIPRJMOD}/../Global-Footprints.pretty/JST-SH 3-Pin.stp"
+	(model "/Users/tim/Documents/KiCad/Global-Footprints.pretty/JST-SH 3-Pin.stp"
 		(offset
 			(xyz 0 1.809999916 2.959999994)
 		)
